@@ -1,4 +1,4 @@
-[smsc.ru](http://smsc.ru) wrapper for Yii 2 
+[Smsc.ru](http://smsc.ru) wrapper for Yii 2 
 
 ## Installation
 
