@@ -1,0 +1,23 @@
+{
+    "name": "ladamalina/yii2-smsc",
+    "description": "Smsc.ru wrapper for Yii 2 ",
+    "keywords": ["yii", "yii2", "sms", "smsc.ru"],
+    "license": "MIT",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Nadezhda Ryabtsova",
+            "email": "nadezhdaryabtsova@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ladamalina\\smsc\\": "src/"
+        }
+    }
+}
