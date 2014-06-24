@@ -34,6 +34,14 @@ class Smsc extends \yii\base\Object
         return false;
     }
 
+    public function getError($result) {
+        return $this->getErrorMsg($result[1]);
+    }
+
+    public function isSuccess($result) {
+        return count($result) == 4;
+    }
+
     /*
         Функция отправки SMS
 
