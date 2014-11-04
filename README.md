@@ -51,6 +51,17 @@ list($sms_id, $sms_cnt, $cost, $balance)
 */
 ```
 
+Проверка результата отправки
+
+```php
+$sms = Yii::$app()->sms;
+$result = $sms->send_sms('79999999999', 'Ваш код для получения скидки');
+if (!$sms->isSuccess($result)) {
+    echo $sms->getError($result);
+    die();
+}
+```
+
 Отправка на группу номеров
 
 ```php
