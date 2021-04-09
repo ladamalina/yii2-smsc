@@ -2,7 +2,7 @@
 
 namespace ladamalina\smsc;
 
-class Smsc extends \yii\base\Object
+class Smsc extends \yii\base\BaseObject
 {
     public $login;  // логин клиента
     public $password;   // пароль или MD5-хеш пароля в нижнем регистре
